@@ -17,35 +17,26 @@ The URL for Preftont：
 
 Group Milestone
 ======
-2025/3/15 Read more relevant papers and consult our project mentor about the feasibility of our proposals
-2025/3/19 Determine the technology stack and framework for the project and configure the basic development environment
-2025/3/30 Build the system framework and complete the initial front-end interface implementation
-2025/4/15 Backend architecture building and dialogue flow management
-2025/5/5  RAG system integration and multi-source data acquisition
-2025/5/27 Comprehensive system testing
-2025/6/5  Write introduction, literature review
-2025/6/14 Write method, conclusion, abstract
-2025/7/7 System and algorithm optimization, webpage display
+2025/3/15 Read more relevant papers and consult our project mentor about the feasibility of our proposals<br>
+2025/3/19 Determine the technology stack and framework for the project and configure the basic development environment<br>
+2025/3/30 Build the system framework and complete the initial front-end interface implementation<br>
+2025/4/15 Backend architecture building and dialogue flow management<br>
+2025/5/5 RAG system integration and multi-source data acquisition<br>
+2025/5/27 Comprehensive system testing<br>
+2025/6/5 Write introduction, literature review<br>
+2025/6/14 Write method, conclusion, abstract<br>
+2025/7/7 System and algorithm optimization, webpage display<br>
 Total: 330hours
 
-Hands-on experience
+Hands-on materials
 ======
-March 2024       School-level Programming Project             Design and Implementation of Intelligent Face Recognition Access Control System           Project Leader
+Feb   2025     Proposal <br>
+March 2025     Status updated 1<br>
+May   2025     Status updated 2<br>
 ------
-Utilized the OpenCV image processing library to capture images and construct face data. Based on the MindSpore platform developed by Huawei, designed relevant face recognition algorithms using the dlib algorithm. Achieved real-time image capture and face recognition, created a simple UI interface, and controlled components such as MLX90614, servos, and passive buzzers using Raspberry Pi 4B and Arduino UNO development boards to implement the face recognition access control system.
-
-November 2023       School-level Electronic Circuit Project Design         Design of a Digital Pulse Width Modulation Pulse Signal Generator           Project Leader
-Utilized ISE Design to develop and create a pulse signal generator with adjustable pulse width, controlled by buttons, which can increase or decrease the duty cycle by 1% each time, displaying the duty cycle of the output pulse signal on a digital tube, and also showing the pulse width situation.
-
-May 2023       School-level Open Experimental Project             Design and Implementation of a Laser Harp                   Main Participant
-Designed and created a laser harp, programmed the microcontroller to control the production of different musical notes with laser beams and the display of LED lights, and it can play various music and adjust the volume.
 
 Honors and awards
 ======
-Personal Honors: Huawei-Ministry of Education 2022-2023 Intelligent Infrastructure "Future Star", Outstanding Young Volunteer, Outstanding League Member, Nanjing University of Posts and Telecommunications 2022-2023 Comprehensive Progress Scholarship, Nanjing University of Posts and Telecommunications Advanced Individual.
-Competition Achievements: 2024 U.S. Collegiate Mathematical Modeling Competition S Award, Nanjing University of Posts and Telecommunications 2024 "Challenge Cup" Competition Bronze Award, 2023 (15th) Mathematical Modeling Competition Third Prize, Second Smart City Technology Competition Third Prize, 2023 College Student Advertising Art Competition Third Prize, Third College Student Financial Literacy Competition First Prize, 2022 China Youth Giant Panda Guardian Plan Honorary Award.
 
-Scientific research projects
-======
-Led a key school-level STITP project: Research on Meteorological Forecasting Based on Graph Neural Networks.
-Designed and constructed a GCN (Graph Convolutional Network) model, utilizing graph convolutional layers to capture local and global features. By optimizing the model, effectively integrated spatiotemporal information to achieve predictions of meteorological indicators for a future period, enhancing the accuracy of meteorological forecasting.
+
+
