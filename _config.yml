@@ -12,7 +12,7 @@ title                    : "HOME PAGE"
 title_separator          : "-"
 name                     : &name "Group Project"
 description              : &description "personal description"
-url                      : https://ace-trump-tech.github.io/Chenbin_ZHANG.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://ace-trump-tech.github.io//JiayiCalista.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ace-trump-tech.github.io/JiayiCalista.github.io"
 
