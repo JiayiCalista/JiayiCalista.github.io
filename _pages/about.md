@@ -35,7 +35,7 @@ Total: 330 hours
 | March 2025 | Status updated 1 |
 | May 2025 | Status updated 2 |
 
-Honors and awards
+Finished Work
 ======
 
 
