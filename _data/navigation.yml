@@ -5,13 +5,13 @@
 # prevent it from being included in the site.
 
 main:
-  - title: "Work Progress Updated"
+  - title: "Introduction"
     url: /publications/
     
   - title: "Portfolio"
     url: /portfolio/
         
-  - title: "Blog Posts"
+  - title: "ProgressUpdate"
     url: /year-archive/
     
   - title: "Group member"
