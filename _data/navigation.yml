@@ -12,7 +12,7 @@ main:
     url: /portfolio/
         
   - title: "ProgressUpdate"
-    url: /year-archive/
+    url: /progressupdate/
     
   - title: "Group member"
     url: /groupmember/
