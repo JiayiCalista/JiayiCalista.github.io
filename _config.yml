@@ -12,7 +12,7 @@ title                    : "HOME PAGE"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://ace-trump-tech.github.io/Chenbin_ZHANG.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://jiayicalista.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ace-trump-tech.github.io/Chenbin_ZHANG.github.io"
 
@@ -26,7 +26,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Intellect Shopping Assistant."
   location         : "Hong Kong"
-  #employer         : "The University of Hong Kong"
+  employer         : "The University of Hong Kong"
   uri              : # URL
   email            : "yjy6816@connect.hku.hk" 
 
