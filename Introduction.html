@@ -1,0 +1,57 @@
+---
+layout: archive
+title: "Introduction"
+permalink: /Introduction/
+author_profile: true
+---
+
+{% if site.author.googlescholar %}
+  <div class="wordwrap">
+    The aim of this study is to develop an e-commerce recommendation assistant that combines Retrieval-Augmented Generation (RAG) [5] and interactive recommendation techniques to deliver context-aware, conversational product recommendations. This system will generate personalized product recommendations in real-time through natural dialogues with users. Our system leverages LLMs as a reasoning engine to interpret user intents, while grounding responses in real-time product data retrieved from external databases. Key objectives include: (1) enabling multi-turn dialogues to refine user preferences through natural language interactions; (2) integrating recommendation tools to ensure domain-specific accuracy.
+  </div>
+{% endif %}
+
+{% include base_path %}
+
+<!-- New style rendering if publication categories are defined -->
+{% if site.publication_category %}
+  {% for category in site.publication_category %}
+    {% assign title_shown = false %}
+    {% for post in site.publications reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2><hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+<!-- Adding new sections for your content -->
+
+<h2>1. Frontend Interface</h2>
+<p>
+  The frontend employs Streamlit to construct a lightweight web interface, providing real-time conversation display and historical message review capabilities. It supports user input validation and error handling to ensure intuitive and stable interactions. The design emphasizes simplicity, visualizing dialogue flow through modular layouts, while built-in safeguards block invalid or malicious inputs, creating a secure and reliable chat environment.
+</p>
+
+<h2>2. Backend Architecture</h2>
+<p>
+  The Python-centric backend builds an NLP pipeline using Rasa and SpaCy, enabling intent classification, entity extraction, dialogue flow management, and rule-driven response generation. A dialogue strategy manager collaborates with an action manager to dynamically control multi-turn conversation logic, ensuring structured task execution (e.g., shopping cart operations) alongside flexible handling of open-ended interactions.
+</p>
+
+<h2>3. Agent Module</h2>
+<p>
+  The Agent integrates four core processors: The LLM Processor connects to LLM API to generate secure responses with embedded command filtering; the Product Processor handles search, recommendations, and information management for e-commerce scenarios; the Cart Processor manages item operations and state synchronization; and the Memory Processor maintains short/long-term dialogue context via Redis. A message classifier orchestrates these components, prioritizing rule-based tasks while reserving LLM engagement for complex semantic contexts.
+</p>
+
+<h2>4. RAG System</h2>
+<p>
+  The system incorporates Retrieval-Augmented Generation (RAG) technology, enhancing traditional dialogue systems by retrieving real-time external data from sources like Redis. This three-stage workflow first extracts historical conversations and product database matches, then integrates system prompts to construct multi-source context, and finally invokes the LLM for verified response generation. By combining structured data retrieval with LLM generalization capabilities, the approach mitigates hallucination risks while enabling dynamic knowledge updates, delivering responses that balance accuracy and naturalness before security validation and user delivery.
+</p>
