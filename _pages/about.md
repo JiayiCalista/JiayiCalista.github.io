@@ -1,13 +1,15 @@
 ---
 permalink: /
-title: "Chenbin ZHANG"
+title: "Group Project"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Chenbin Zhang, male, is an undergraduate student in the class of 2021, majoring in Intelligent Science and Technology at College of Automation & College of Artificial Intelligence, Nanjing University of Posts and Telecommunications. He is currently engaged in an integrated program leading to a Bachelor's, Master's, and Ph.D. in Control Science and Engineering. Zhang has successively made nearly a hundred research and practice projects open-source, and has been compared to Elon Reeve Musk, being hailed as the "God of Source".
+Develop a conversational e-commerce assistant integrating RAG and interactive recommendation techniques
+Enable real-time personalized recommendations through multi-turn natural language dialogue
+
 
 More details
 ======
