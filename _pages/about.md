@@ -13,13 +13,20 @@ Enable real-time personalized recommendations through multi-turn natural languag
 
 More details
 ======
-The URL for Baidu Baike entries is：https://baike.baidu.com/item/%E5%BC%A0%E6%99%A8%E6%96%8C?fromModule=lemma_search-box
+The URL for Preftont：
 
-Educational Background
+Group Milestone
 ======
-September 2021 - Present            Nanjing University of Posts and Telecommunications            Intelligent Science and Technology | Bachelor's Degree          Major Ranking: 11/62
-Skills Certificates: English Certificates (CET-4, CET-6), proficient in languages such as Python, C, and have relevant experience with development platforms like ISE Design, Jieliuchuang EDA.
-Work Positions: Served as the publicity committee member of Class B210414, proficient in PPT creation and have extensive experience in article writing.
+2025/3/15 Read more relevant papers and consult our project mentor about the feasibility of our proposals
+2025/3/19 Determine the technology stack and framework for the project and configure the basic development environment
+2025/3/30 Build the system framework and complete the initial front-end interface implementation
+2025/4/15 Backend architecture building and dialogue flow management
+2025/5/5  RAG system integration and multi-source data acquisition
+2025/5/27 Comprehensive system testing
+2025/6/5  Write introduction, literature review
+2025/6/14 Write method, conclusion, abstract
+2025/7/7 System and algorithm optimization, webpage display
+Total: 330hours
 
 Hands-on experience
 ======
