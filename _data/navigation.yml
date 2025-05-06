@@ -7,12 +7,6 @@
 main:
   - title: "Work Progress Updated"
     url: /publications/
-
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
     
   - title: "Portfolio"
     url: /portfolio/
@@ -23,5 +17,4 @@ main:
   - title: "Group member"
     url: /groupmember/
     
-  - title: "Guide"
-    url: /markdown/
+  
